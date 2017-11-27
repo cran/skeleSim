@@ -1,7 +1,7 @@
 Package: skeleSim
 Type: Package
 Title: Genetic Simulation Engine
-Version: 0.9.7
+Version: 0.9.8
 Authors@R: c(
   EA = person("Eric", "Archer", email = "eric.archer@noaa.gov", role = c("aut")),
   MDL = person("Michelle", "DePrenger-Levin", email = "michelledpl@gmail.com", role = c("aut")),
@@ -9,8 +9,8 @@ Authors@R: c(
   LL = person("Libby", "Liggins", email = "L.Liggins@massey.ac.nz", role = c("aut")),
   CP = person("Christian", "Parobek", email = "christian.parobek@gmail.com", role = c("aut")),
   AS = person("Allan", "Strand", email = "stranda@gmail.com", role = c("aut", "cre")))
-URL: https:://github.com/christianparobek/skelesim
-BugReports: https://github.com/christianparobek/skelesim/issues
+URL: https://github.com/christianparobek/skeleSim
+BugReports: https://github.com/christianparobek/skeleSim/issues
 Description: A shiny interface and supporting tools to guide users in choosing
     appropriate simulations, setting parameters, calculating summary genetic
     statistics, and organizing data output, all within the R environment. In
@@ -31,9 +31,9 @@ Collate: skeleSim-package.R skeleSim.classes.R fsc.classes.R
         rms.scenarioCheck.R runSim.R skeleSim.checks.R
         getGammaMutRates.R
 VignetteBuilder: knitr
-RoxygenNote: 5.0.1.9000
+RoxygenNote: 6.0.1
 NeedsCompilation: no
-Packaged: 2017-11-09 22:42:07 UTC; astrand
+Packaged: 2017-11-27 16:30:29 UTC; astrand
 Author: Eric Archer [aut],
   Michelle DePrenger-Levin [aut],
   Sean Hoban [aut],
@@ -42,4 +42,4 @@ Author: Eric Archer [aut],
   Allan Strand [aut, cre]
 Maintainer: Allan Strand <stranda@gmail.com>
 Repository: CRAN
-Date/Publication: 2017-11-09 23:02:31 UTC
+Date/Publication: 2017-11-27 22:37:36 UTC
